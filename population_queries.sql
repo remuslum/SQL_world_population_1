@@ -3,11 +3,6 @@
 SELECT DISTINCT year from population_years;
 
 -- Add your additional queries below:
--- This is the first query:
-
-SELECT DISTINCT year from population_years;
-
--- Add your additional queries below:
 
 SELECT COUNT(DISTINCT year) AS years_covered from population_years; 
 SELECT MAX(population) AS largest_population from population_years WHERE country = "Gabon" ;
